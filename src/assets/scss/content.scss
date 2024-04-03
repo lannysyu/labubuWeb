@@ -1,0 +1,29 @@
+// ::-webkit-scrollbar {
+//     display: none;
+// }
+
+// .content-layout {
+//     display: flex;
+//     flex-direction: column;
+//     height: 100%;
+// }
+
+.content-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-main {
+    flex-grow: 1;
+    overflow: auto;
+    height: 100%;
+    // padding-top: 10px // padding: 16px;
+}
+
+.content-footer {
+    margin-top: 16px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-bg-type: #F5F7F8 !important;
+}
