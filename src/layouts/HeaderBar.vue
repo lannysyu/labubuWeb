@@ -29,7 +29,6 @@ const route = useRoute();
                 <div class="p-2">Home</div>
             </router-link>
         </div>
-
         <div>
             <router-link
                 :to="{ name: 'Shop' }"
@@ -38,7 +37,14 @@ const route = useRoute();
                 <div class="p-2">Shop</div>
             </router-link>
         </div>
-
+        <div>
+            <router-link
+                :to="{ name: 'Schedule' }"
+                class="text-decoration-none text-dark"
+            >
+                <div class="p-2">Schedule</div>
+            </router-link>
+        </div>
         <div>
             <router-link
                 :to="{ name: 'Cart' }"

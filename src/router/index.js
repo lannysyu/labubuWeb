@@ -35,6 +35,14 @@ const router = createRouter({
             },
             meta: { title: "Cart" }
         },
+        {
+            path: "/schedule",
+            name: "Schedule",
+            components: {
+                default: () => import("@/views/Schedule.vue")
+            },
+            meta: { title: "Schedule" }
+        },
     ]
     },
   ]

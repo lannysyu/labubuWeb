@@ -11,12 +11,21 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/interaction": "^6.1.17",
+    "@fullcalendar/list": "^6.1.17",
+    "@fullcalendar/resource": "^6.1.17",
+    "@fullcalendar/resource-timeline": "^6.1.17",
+    "@fullcalendar/timegrid": "^6.1.17",
+    "@fullcalendar/vue3": "^6.1.17",
     "bootstrap": "^5.3.3",
     "fast-glob": "^3.3.2",
     "pinia": "^2.1.7",
     "sass": "^1.72.0",
     "vite-plugin-svg-icons": "^2.0.1",
     "vue": "^3.4.21",
+    "vue-cal": "^4.10.2",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
